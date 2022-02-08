@@ -28,7 +28,7 @@ Part of speech (PoS) taggins is a fundamental technique in most natural language
 
 However, on this notebook, we will be performing PoS tagging over portuguese sentences, as english PoS tagging has already been covered in many other projects. Therefore, this discussion will be carried out in portuguese from this point onwards.
 
-If you want to learn about pos-tagging in english, you can checkout [this article](https://medium.com/data-science-in-your-pocket/pos-tagging-using-hidden-markov-models-hmm-viterbi-algorithm-in-nlp-mathematics-explained-d43ca89347c4) by Mehul Gupta who does a job that is honestly better than mine on explaining the topic in detail. You can also easily find [many implementations of PoS tagging on GitHub](https://github.com/search?q=pos-tagging).
+If you want to learn about PoS tagging in english, you can checkout [this article](https://medium.com/data-science-in-your-pocket/pos-tagging-using-hidden-markov-models-hmm-viterbi-algorithm-in-nlp-mathematics-explained-d43ca89347c4) by Mehul Gupta who does a job that is honestly better than mine on explaining the topic in detail. You can also easily find [many implementations of PoS tagging on GitHub](https://github.com/search?q=pos-tagging).
 
 ## Hidden Markov Model
 
