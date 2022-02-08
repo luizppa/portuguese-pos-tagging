@@ -34,7 +34,7 @@ If you want to learn about PoS tagging in english, you can checkout [this articl
 
 Nesses exemplos, usaremos a implementação do algoritmo _Hidden Markov Model_ (Modelo Oculto de Markov) oferecido pela biblioteca `nltk`. Esse modelo tem diversas aplicações além de _PoS tagging_ em áreas como termodinâmica, estatística, ecnomia, teoria da informação, entre outras.
 
-Teremos um processo stocastico, mais especificamente um processo Markoviano, ou seja, temos uma sequência de variáveis aleatórias que podem assumir um conjunto de estados $Q$ onde a probabilidade de cada estado depende apenas do estado assumido na variável anterior, chamaeremos essa sequência de $X$. Teremos também uma senquência de valores observáveis $Y$ onde a ocorrência de $y_n$ está relacionada com a ocorrência de $x_n$. Baseado nisso teremos duas tabelas de probabilidade: as probabilidades de transição e as probabilidades de emissão. As probabilidades de transição indicam a probabilidade de $x_n$ assumir um dado estado baseado no estado de $x_{n-1}$:
+Teremos um processo estocástico, mais especificamente um processo Markoviano, ou seja, temos uma sequência de variáveis aleatórias que podem assumir um conjunto de estados $Q$ onde a probabilidade de cada estado depende apenas do estado assumido na variável anterior, chamaeremos essa sequência de $X$. Teremos também uma senquência de valores observáveis $Y$ onde a ocorrência de $y_n$ está relacionada com a ocorrência de $x_n$. Baseado nisso teremos duas tabelas de probabilidade: as probabilidades de transição e as probabilidades de emissão. As probabilidades de transição indicam a probabilidade de $x_n$ assumir um dado estado baseado no estado de $x_{n-1}$:
 
 $$P(x_n|x_{n-1})$$
 
