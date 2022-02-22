@@ -1,4 +1,4 @@
-# Part o Speech Tagging of Portugese Sentences
+# Part o Speech Tagging of Portuguese Sentences
 
 - [Part o Speech Tagging of Portugese Sentences](#part-o-speech-tagging-of-portugese-sentences)
   - [Hidden Markov Model](#hidden-markov-model)
